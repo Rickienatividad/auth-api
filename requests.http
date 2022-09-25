@@ -1,9 +1,19 @@
-POST http://localhost:3000/users 
+### Create New Users
+POST http://localhost:3000/users.json 
 Content-Type: application/json
 
 {
   "name": "jojo",
-  "email": "jojo.com",
+  "email": "jojo@test.com",
   "password": "password",
   "password_confirmation": "password"
+}
+
+### Login
+POST http://localhost:3000/sessions.json
+Content-Type: application/json
+
+{
+  "email": "mjjj@test.com",
+  "password": "password"
 }
