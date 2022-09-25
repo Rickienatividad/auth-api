@@ -17,3 +17,7 @@ Content-Type: application/json
   "email": "mjjj@test.com",
   "password": "password"
 }
+
+### User index Test 
+GET http://localhost:3000/users 
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo1LCJleHAiOjE2NjQyMDMyODN9.0tvn5Kn_sEKH_nujuuZ5X1q82kJuAgJB8cM8NGSzqaU
